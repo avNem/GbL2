@@ -16,4 +16,9 @@ public class Cat implements Moving{
     public int run() {
         return 20;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

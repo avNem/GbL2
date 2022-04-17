@@ -16,4 +16,9 @@ public class Robot implements Moving{
     public int run() {
         return 1000;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

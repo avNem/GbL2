@@ -20,7 +20,10 @@ public class HomeWorkApp {
 
         for (Moving mover : movers) {
             for (Obstacles obstacle : obstacles) {
-                obstacle.makeMoving(mover);
+                if(!obstacle.makeMoving(mover)) {
+                    System.out.println(mover + " выбывает");
+                    break;
+                }
             }
         }
 

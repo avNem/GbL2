@@ -16,4 +16,9 @@ public class Human implements Moving{
     public int run() {
         return 100;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
