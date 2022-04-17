@@ -1,5 +1,5 @@
-public class MyArraySizeException extends IndexOutOfBoundsException{
-    public MyArraySizeException(String s) {
-        super(s);
+public class MyArraySizeException extends RuntimeException{
+    public MyArraySizeException() {
+        super("не верный размер");
     }
 }
