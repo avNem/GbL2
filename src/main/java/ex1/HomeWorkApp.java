@@ -9,6 +9,7 @@ public class HomeWorkApp {
         String[] words = {"мир", "желтый", "фиолетовый", "red", "yellow", "black",
                 "черный", "world", "мир", "желтый"};
 
+
         Collections.addAll(unicWords, words);
         System.out.println("список уникальных слов " + unicWords);
 
