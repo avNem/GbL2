@@ -16,7 +16,6 @@ public class ClientChat extends Application {
 
         ClientController controller = fxmlLoader.getController();
         controller.userList.getItems().addAll("user1", "user2", "user3");
-
         stage.show();
     }
 

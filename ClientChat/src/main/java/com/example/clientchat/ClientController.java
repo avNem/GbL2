@@ -25,7 +25,6 @@ public class ClientController {
     @FXML
     public ListView userList;
 
-
     public void appendMessageToChat(ActionEvent actionEvent) {
         if (!messageField.getText().isEmpty()) {
             messageTextArea.appendText(DateFormat.getDateTimeInstance().format(new Date()));
