@@ -23,6 +23,7 @@ public class Client {
             Thread thread1 = new Thread(new Runnable() {
                 @Override
                 public void run() {
+
                     while (true) {
                         messageFromServer(scanner.nextLine());
                     }
